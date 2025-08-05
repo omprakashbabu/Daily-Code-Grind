@@ -21,3 +21,26 @@
 // 1 <= s.length <= 104
 // s consists of only English letters and spaces ' '.
 // There will be at least one word in s.
+
+
+class Solution {
+public:
+    int lengthOfLastWord(string s) {
+        string ch = "";
+        int n = s.length()-1;
+        while(!s.empty() && s.back() == ' '){
+            s.pop_back();
+            n--;
+        }
+        for(int i=n;i>=0;i--){
+            if(s[i] != ' '){
+                ch += s[i];
+            }
+            else{
+                break;
+            }
+        }
+        return ch.length();
+    }
+};
+
