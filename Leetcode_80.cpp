@@ -26,3 +26,22 @@
 // Output: 7, nums = [0,0,1,1,2,3,3,_,_]
 // Explanation: Your function should return k = 7, with the first seven elements of nums being 0, 0, 1, 1, 2, 3 and 3 respectively.
 // It does not matter what you leave beyond the returned k (hence they are underscores).
+
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        unordered_map<int , int> freq;
+        int n = nums.size();
+        if(n <= 2)return n;
+        int slow = 2;
+        for(int fast=2;fast<n;fast++){
+            if(nums[fast] != nums[slow - 2]){
+                nums[slow] = nums[fast];
+                nums[slow++];
+            }
+        }
+        return slow;
+    }
+};
+
+
