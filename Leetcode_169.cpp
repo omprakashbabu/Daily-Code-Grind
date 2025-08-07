@@ -9,3 +9,20 @@
 // Example 2:
 // Input: nums = [2,2,1,1,1,2,2]
 // Output: 2
+
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        unordered_map<int , int> mymap;
+        int n = nums.size();
+        for(int i=0;i<n;i++){
+            mymap[nums[i]]++;
+            if(mymap[nums[i]] > n/2){
+                return nums[i];
+            }
+        }
+        return -1;
+    }
+    
+};
+
