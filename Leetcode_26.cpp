@@ -33,7 +33,7 @@
 // Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 // It does not matter what you leave beyond the returned k (hence they are underscores).
 
-
+//solution 1
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -49,4 +49,15 @@ public:
         }
         return k;
     }
+};
+
+//solution 2
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        set<int> myset;
+        myset.insert(nums.begin(),nums.end());
+        nums.assign(myset.begin(),myset.end());
+        return nums.size();
+    }    
 };
