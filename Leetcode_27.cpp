@@ -40,7 +40,7 @@
 // It does not matter what you leave beyond the returned k (hence they are underscores).
 
 
-
+//solution 1
 class Solution {
     public:
     int removeElement(vector<int>& nums, int val) {
@@ -54,5 +54,20 @@ class Solution {
         }
     }
         return k;
+    }
+};
+
+//solution 2
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        
+        for(int i=nums.size()-1;i>=0;i--){
+            if(nums[i] == val){
+                nums.erase(nums.begin() + i);
+            }
+
+        }        
+        return nums.size();
     }
 };
