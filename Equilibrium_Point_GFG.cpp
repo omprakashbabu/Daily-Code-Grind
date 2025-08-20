@@ -17,7 +17,7 @@
 // Explanation: The sum of left of index 3 is -7 + 1 + 5 = -1 and sum on right of index 3 is -4 + 3 + 0 = -1.
 
 
-class Solution {
+class Solution { 
   public:
     int findEquilibrium(vector<int> &arr) {
         int totalSum = 0;
