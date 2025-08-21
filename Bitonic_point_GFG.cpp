@@ -3,7 +3,7 @@
 // Given an array of integers arr[] that is first strictly increasing and then maybe strictly decreasing, find the bitonic point, that is the maximum element in the array.
 // Bitonic Point is a point before which elements are strictly increasing and after which elements are strictly decreasing.
 
-// Note: It is guaranteed that the array contains exactly one bitonic point.
+// Note: It is guaranteed that the array contains exactly one bitonic point.  
 
 // Examples:
 
