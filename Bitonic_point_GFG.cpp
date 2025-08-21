@@ -8,7 +8,7 @@
 // Examples:
 
 // Input: arr[] = [1, 2, 4, 5, 7, 8, 3]
-// Output: 8
+// Output: 8 
 // Explanation: Elements before 8 are strictly increasing [1, 2, 4, 5, 7] and elements after 8 are strictly decreasing [3].
 // Input: arr[] = [10, 20, 30, 40, 50]
 // Output: 50
