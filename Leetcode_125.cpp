@@ -18,8 +18,6 @@
 // Explanation: s is an empty string "" after removing non-alphanumeric characters.
 // Since an empty string reads the same forward and backward, it is a palindrome.
 
-
-
 class Solution {
 public:
     bool isPalindrome(string s) {
