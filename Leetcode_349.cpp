@@ -9,3 +9,22 @@
 // Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
 // Output: [9,4]
 // Explanation: [4,9] is also accepted.
+
+//Solution 1
+class Solution {
+public:
+    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+        unordered_set <int> myset(nums1.begin(),nums1.end());
+        unordered_set <int> result;
+
+        for(auto num : nums2){
+            if(myset.count(num)){
+                result.insert(num);
+            }
+        }
+        return vector <int> (result.begin(),result.end());
+    }
+};
+
+
+
