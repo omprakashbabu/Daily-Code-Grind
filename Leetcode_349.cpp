@@ -26,5 +26,24 @@ public:
     }
 };
 
+//Solution 2
+class Solution {
+public:
+    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+        // Step 1: Sort one of the arrays (nums2)
+        sort(nums2.begin(), nums2.end());
 
+        set<int> result;  // To store unique common elements
+
+        // Step 2: For each element in nums1, binary search in nums2
+        for (int num : nums1) {
+            if (binary_search(nums2.begin(), nums2.end(), num)) {
+                result.insert(num);  // Set avoids duplicates
+            }
+        }
+
+        // Step 3: Convert set to vector
+        return vector<int>(result.begin(), result.end());
+    }
+};
 
