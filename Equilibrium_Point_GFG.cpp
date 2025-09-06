@@ -9,7 +9,7 @@
 // Input: arr[] = [1, 2, 0, 3] 
 // Output: 2 
 // Explanation: The sum of left of index 2 is 1 + 2 = 3 and sum on right of index 2 is 3.
-// Input: arr[] = [1, 1, 1, 1]
+// Input: arr[] = [1, 1, 1, 1] 
 // Output: -1
 // Explanation: There is no equilibrium index in the array.
 // Input: arr[] = [-7, 1, 5, 2, -4, 3, 0]
