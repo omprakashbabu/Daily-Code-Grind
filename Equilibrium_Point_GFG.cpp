@@ -4,7 +4,7 @@
 
 // The equilibrium point in an array is an index (0-based indexing) such that the sum of all elements before that index is the same as the sum of elements after it. Return -1 if no such point exists. 
   
-// Examples:  
+// Examples:   
  
 // Input: arr[] = [1, 2, 0, 3]  
 // Output: 2 
