@@ -6,7 +6,7 @@
   
 // Examples:  
  
-// Input: arr[] = [1, 2, 0, 3] 
+// Input: arr[] = [1, 2, 0, 3]  
 // Output: 2 
 // Explanation: The sum of left of index 2 is 1 + 2 = 3 and sum on right of index 2 is 3.
 // Input: arr[] = [1, 1, 1, 1] 
