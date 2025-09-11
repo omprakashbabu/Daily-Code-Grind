@@ -44,3 +44,16 @@ public:
     }
 };
 
+//Python code
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        str1 = s.strip()
+        length = 0
+        for i in range(len(str1)-1, -1,-1):
+            if str1[i] == ' ':                  
+                break
+            else:
+                length+=1
+        return length
+
+        
