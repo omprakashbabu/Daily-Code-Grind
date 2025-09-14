@@ -4,7 +4,7 @@
 // Bitonic Point is a point before which elements are strictly increasing and after which elements are strictly decreasing.
 
 // Note: It is guaranteed that the array contains exactly one bitonic point.  
-
+ 
 // Examples:
 
 // Input: arr[] = [1, 2, 4, 5, 7, 8, 3]
