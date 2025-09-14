@@ -1,5 +1,5 @@
 // Bitonic Point
-// Difficulty: EasyAccuracy: 58.67%Submissions: 153K+Points: 2Average Time: 15m
+// Difficulty: EasyAccuracy: 58.67%Submissions: 153K+Points: 2Average Time: 15m 
 // Given an array of integers arr[] that is first strictly increasing and then maybe strictly decreasing, find the bitonic point, that is the maximum element in the array.
 // Bitonic Point is a point before which elements are strictly increasing and after which elements are strictly decreasing.
 
