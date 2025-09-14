@@ -5,7 +5,7 @@
 
 // Note: It is guaranteed that the array contains exactly one bitonic point.  
  
-// Examples:
+// Examples: 
 
 // Input: arr[] = [1, 2, 4, 5, 7, 8, 3]
 // Output: 8 
