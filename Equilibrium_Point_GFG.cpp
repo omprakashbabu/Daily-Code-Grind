@@ -15,7 +15,7 @@
 // Input: arr[] = [-7, 1, 5, 2, -4, 3, 0]
 // Output: 3  
 // Explanation: The sum of left of index 3 is -7 + 1 + 5 = -1 and sum on right of index 3 is -4 + 3 + 0 = -1.
-
+ 
 
 class Solution {  
   public:
