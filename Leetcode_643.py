@@ -15,3 +15,33 @@
 # n == nums.length
 # 1 <= k <= n <= 105
 # -104 <= nums[i] <= 104
+
+# class Solution:
+#     def findMaxAverage(self, nums: List[int], k: int) -> float:
+#         max_avg = []
+
+#         left = 0
+#         right = k-1
+
+#         # for i in range(len(nums)):
+#         while right < len(nums):
+#             avg = sum(nums[left:right+1]) / k
+#             max_avg.append(avg)
+#             left += 1
+#             right += 1
+
+#         return max(max_avg)
+
+
+class Solution:
+    def findMaxAverage(self, nums: List[int], k: int) -> float:
+        cur_sum = sum(nums[:k])
+
+        max_avg = cur_sum / k
+
+        for i in range(k,len(nums)):
+            cur_sum += nums[i] - nums[i-k]
+            avg = cur_sum / k
+            max_avg = max(max_avg,avg)
+
+        return max_avg
