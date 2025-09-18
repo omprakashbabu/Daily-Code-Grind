@@ -6,7 +6,7 @@
 // Note: It is guaranteed that the array contains exactly one bitonic point.  
  
 // Examples: 
-
+ 
 // Input: arr[] = [1, 2, 4, 5, 7, 8, 3]
 // Output: 8 
 // Explanation: Elements before 8 are strictly increasing [1, 2, 4, 5, 7] and elements after 8 are strictly decreasing [3].
