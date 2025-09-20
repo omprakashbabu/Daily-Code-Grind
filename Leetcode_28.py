@@ -17,7 +17,8 @@ class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         return haystack.find(needle)
 
-C++ Code
+
+# C++ Code
 
 class Solution {
 public:
