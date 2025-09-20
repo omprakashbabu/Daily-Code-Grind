@@ -16,3 +16,18 @@
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         return haystack.find(needle)
+
+C++ Code
+
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        if(haystack.size() < needle.size()){
+            return -1;
+        }
+        else{
+            return haystack.find(needle);
+        }
+        
+    }
+};
