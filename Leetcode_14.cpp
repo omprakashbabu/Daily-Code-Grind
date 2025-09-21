@@ -30,7 +30,7 @@ public:
 };
 
 
-Python Code
+//Python Code
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
