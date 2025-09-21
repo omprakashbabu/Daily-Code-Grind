@@ -11,7 +11,7 @@
 // Output: ""
 // Explanation: There is no common prefix among the input strings.
 
-C++ Code
+//C++ Code
  
 class Solution {
 public:
