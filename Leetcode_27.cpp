@@ -83,5 +83,20 @@ class Solution:
                 i += 1
         return len(nums)
 
- 
+ // Solution 4 - C#
+ public class Solution {
+    public int RemoveElement(int[] nums, int val) {
+        int k = 0;
+
+        for (int i = 0; i < nums.Length; i++) {
+            if (nums[i] != val) {
+                nums[k] = nums[i];
+                k++;
+            }
+        }
+
+        return k; 
+    }
+}
+
 
