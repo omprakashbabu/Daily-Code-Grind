@@ -5,13 +5,13 @@
 
 # Return the modified list after applying the swaps.
 
-Example 1
-Input:
-n = 5
-nums = [1, 3, 8, 5, 10]
+# Example 1
+# Input:
+# n = 5
+# nums = [1, 3, 8, 5, 10]
 
-Output:
-[3, 1, 5, 10, 8]
+# Output:
+# [3, 1, 5, 10, 8]
 
 
 def modifyarr(n, nums):
