@@ -8,6 +8,13 @@
 #     Multiply these two counts and add the product to a running total.
 #     Return the final total sum.
 
+# Example:
+# Input:
+# n = 5
+# strr = "NnNNn"
+# Output:
+# 2
+
 def returnsum(n, strr):
     summ = 0
     for i in range(n):
