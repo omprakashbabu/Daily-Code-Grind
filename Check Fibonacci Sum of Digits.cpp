@@ -3,7 +3,8 @@
 using namespace std;
 
 int main() {
-    int input = 1234;
+    int input;
+    cin >> input;
     int sum = 0;
     
     string str = to_string(input);
