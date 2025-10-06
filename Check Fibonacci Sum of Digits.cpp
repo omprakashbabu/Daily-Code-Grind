@@ -11,7 +11,7 @@
 // Input:
 // n = 1234
 // Explanation:
-// Sum of digits = 1 + 2 + 3 + 4 = 10
+// Sum of digits = 1 + 2 + 3 + 4 = 10 
 // 10 is not a Fibonacci number
 // The next Fibonacci number after 10 is 13
 // So, return "123413"
